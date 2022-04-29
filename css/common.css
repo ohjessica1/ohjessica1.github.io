@@ -1,0 +1,44 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0
+}
+ul,ol,li{
+    list-style: none;
+}
+img,iframe{
+    border: 0;
+}
+a {
+    text-decoration: none;
+    color: #222;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/** html,body{
+    overflow-x: hidden;
+    width: 100%;
+    font-size: 14px;
+    구조 짜고 이 태그 풀어주기
+} **/
+body{
+    min-height: 100%;
+    word-break: break-all;
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+body,h1,h2,h3,h4,h5,h6,input,button,textarea,select{
+    line-height: 1.5;
+}
+.section-title{
+    position: relative;
+    margin-bottom: 30px;
+    display: contents;
+    align-items: baseline;
+    font-size: 3em;
+    font-weight: 900;
+    flex: 1;
+    font-family: "Lush", sans-serif;
+    color: #2c2c2c;

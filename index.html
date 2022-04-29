@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUSH mood</title>
+    <link href="./css/pc.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link href="http://fonts.cdnfonts.com/css/lush" rel="stylesheet">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/lush');
+        @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+        @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+        @font-face {font-family: 'UhBeeRice'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeRice.woff') format('woff'); font-weight: normal; font-style: normal;}
+    </style>
+</head>
+<body>
+<!------------- Top Menu Bar ------------->
+    <!-- <div class="header">
+        <ul id="gnb">
+            <li class="introduce-box">
+                <h2>
+                    러쉬소개
+                </h2>
+                <h2>
+                    제품
+                </h2>
+            </li>
+            <h5 class="logo">LUSH</h5>
+            <li class="icon-box">
+                <h2>
+                    마이페이지
+                </h2>
+                <div class="header_icon">
+                    <div class="cart">
+                        <img src="img/shoppingbag_white.svg" alt="쇼핑카드">
+                    </div>
+                </div>
+                <div class="header_icon">
+                    <div class="search">
+                        <img src="img/search_white.svg" alt="검색">
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <a id="hamburger" href="#">
+            <span></span>
+            <span></span>
+        </a>
+    </div> -->
+    <section class="banner">
+        <header class="header-area">
+            <div class="header-logo">
+                <h5 class="logo">LUSH</h5>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li data-alt="tab1">
+                        <a href="#none">러쉬소개</a>
+                    </li>
+                    <li data-alt="tab2">
+                        <a href="#none">제품</a>
+                    </li>
+                    <li data-alt="tab3">
+                        <a href="#none">매장안내</a>
+                    </li>
+                    <li data-alt="tab3">
+                        <a href="#none">이벤트</a>
+                    </li>
+                </ul>
+                <ul class="icon-box">
+                    <li>
+                        <a href="#none">
+                            <img src="img/shoppingbag_white.svg" alt="cart">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="img/account_white.svg" alt="cart">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="img/search_white.svg" alt="search">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <a id="hamburger" href="#">
+            </a>
+        </header>
+    </section>
+<!-------- Main Banner ----------->
+    <div id="main_banner">
+        <video src="img/lushmood hardlight ver..mp4" autoplay muted loop width:100%;></video>
+        <div class="banner_text"># LUSH MOOD</div>
+    </div>
+<!--------- Section1 ------------>
+    <section id="section1">
+        <div class="section1-inner">
+            <div class="container">
+                <div class="section-header">
+                    <h1 class="section-title">LUSH STORY</h1>
+                    <h3 class="section-subtitle">러쉬의 다양한 이야기를 지금 확인해보세요.</h3>
+                </div>
+<!-- Section 1 스토리 이미지 -->
+                <div class="story-box">
+                    <ul>
+                        <li>
+                            <div class="story_img">
+                                <img src="./img/story_1.jpeg" width="600" height="750" alt="러쉬 타임즈 매거진">
+                                <div class="description">
+                                    <h3 class="description-title">
+                                        <p>트레일 에디션 론칭</p>
+                                        <p>러쉬 타임즈 매거진</p>
+                                    </h3>
+                                </div>
+                            </div> 
+                        <li>
+                            <div class="story_img">
+                                <img src="./img/story_2.jpeg" width="300" height="800" alt="서명 캠페인">
+                                <div class="description">
+                                    <h3 class="description-title">
+                                        <p>동물대체시험법 제정안</p>
+                                        <p>서명 캠페인</p>
+                                    </h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="story_img">
+                                <img src="./img/story_3.jpeg" width="300" height="800" alt="베지테리언">
+                                <div class="description">
+                                    <h3 class="description-title">
+                                        <p>러쉬는 27년째</p>
+                                        <p>베지테리언</p>
+                                    </h3>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+<!----------- Section2 ----------->
+    <section id="section2">
+        <div class="section2-inner">
+            <div class="container">
+                <div class="section-header">
+                    <h1 class="section-title">BEST SELLER</h1>
+                    <h3 class="section-subtitle">베스트 상품을 지금 바로 만나보세요!</h3>
+                </div>
+                <div class="youtube-box">
+                    <video src="img/lush bestproduct.mp4" autoplay muted loop width="1199" height="500";></video>
+                </div>
+                <!-- <div id="video" controls>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/T11HgSmAYuM?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div> -->
+            </div>
+        </div>
+    </section>
+<!--------- Section3 Slogan -----------> 
+    <section id="section3">  
+        <div class="slogan">  
+            <blockquote>
+                신선함은 러쉬 철학의 핵심입니다.<br>
+                신선한 과일, 채소, 에션셜 오일, 최소한의 보존제와<br>
+                안전한 인공 성분을 사용하여 제품을 선보입니다. 
+                러쉬의 모든 제품은 <mark class="green">베지테리언(Vegetarian)</mark>이며,<br>
+                그 중 약 95%는 식물성 원료로만 만든 <mark class="yellowgreen">비건(Vegan)</mark>입니다. 
+            </blockquote>
+        </div>
+    </section>
+<!-------- Section4 ---------->
+    <section id="section4">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">SHOP</h1>
+                <h3 class="section-subtitle">누구나 좋아하는 인기 제품을 만나 보세요!</h3>
+            </div>
+            <div class="swiper firstSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="pro_img">
+                            <img src="img/product1.png" alt="상품이미지1">
+                            <div class="tag_container">
+                                <div class="tag_box black">
+                                    <i class="tag-type1">온라인전용</i>
+                                </div>
+                                <div class="tag_box lightgreen">
+                                    <i class="tag-type2">VEGAN</i>
+                                </div>
+                                <h5 class="in_title">인터갈락틱</h5>
+                                <p class="pro_con">
+                                #배쓰밤 #환상적인우주느낌<br>₩ 17,000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pro_img">
+                            <img src="img/product2.png" alt="상품이미지2">
+                            <div class="tag_container">
+                                <div class="tag_box black">
+                                    <i class="tag-type1">온라인전용</i>
+                                </div>
+                                <div class="tag_box lightgreen">
+                                    <i class="tag-type2">VEGAN</i>
+                                </div>
+                                <h5 class="in_title">플러피퍼퓸 버블 보틀</h5>
+                                <p class="pro_con">
+                                #버블보틀 #힐링아이템 <br>₩ 28,000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pro_img">
+                            <img src="img/product3.png" alt="상품이미지3">
+                            <div class="tag_container">
+                                <div class="tag_box darkgreen">
+                                    <i class="tag-type3">NEW</i>
+                                </div>
+                                <div class="tag_box orange">
+                                    <i class="tag-type4">Woody</i>
+                                </div>
+                                <h5 class="in_title">가디언 오브 더 포레스트</h5>
+                                <p class="pro_con">
+                                    #보디스프레이 #숲속자연의향기<br>₩ 59,000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pro_img">
+                            <img src="img/product4.png" alt="상품이미지4">
+                            <div class="tag_container">
+                                <div class="tag_box darkgreen">
+                                    <i class="tag-type3">NEW</i>
+                                </div>
+                                <div class="tag_box lightgreen">
+                                    <i class="tag-type2">VEGAN</i>
+                                </div>
+                                <h5 class="in_title">빅 블루</h5>
+                                <p class="pro_con">
+                                    #배쓰밤 #신선한해초듬뿍<br>₩ 14,000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pro_img">
+                            <img src="img/product5.png" alt="상품이미지5">
+                            <div class="tag_container">
+                                <!-- <div class="tag_box darkgreen">
+                                    <i class="tag-type3">NEW</i>
+                                </div> -->
+                                <div class="tag_box lightgreen">
+                                    <i class="tag-type2">VEGAN</i>
+                                </div>
+                                <h5 class="in_title">그루비 카인드 오브 러브</h5>
+                                <p class="pro_con">
+                                    #배쓰밤 #로즈우드와일랑일랑<br>₩ 18,000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pro_img">
+                            <img src="img/product6.png" alt="상품이미지6">
+                            <div class="tag_container">
+                                <div class="tag_box darkgreen">
+                                    <i class="tag-type3">NEW</i>
+                                </div>
+                                <div class="tag_box lightgreen">
+                                    <i class="tag-type2">VEGAN</i>
+                                </div>
+                                <h5 class="in_title">플라워링 캐롯</h5>
+                                <p class="pro_con">
+                                    #솝 #당근꽃<br>₩ 16,000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pro_img">
+                            <img src="img/product7.png" alt="상품이미지7">
+                            <div class="tag_container">
+                                <div class="tag_box darkgreen">
+                                    <i class="tag-type3">NEW</i>
+                                </div>
+                                <div class="tag_box lightgreen">
+                                    <i class="tag-type2">VEGAN</i>
+                                </div>
+                                <h5 class="in_title">머메이드 테일</h5>
+                                <p class="pro_con">
+                                    #버블바 #인어공주 #신비로움<br>₩ 18,000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pro_img">
+                            <img src="img/product8.png" alt="상품이미지8">
+                            <div class="tag_container">
+                                <div class="tag_box black">
+                                    <i class="tag-type1">온라인전용</i>
+                                </div>
+                                <div class="tag_box lightgreen">
+                                    <i class="tag-type2">VEGAN</i>
+                                </div>
+                                <h5 class="in_title">레몬 크럼블 버블룬</h5>
+                                <p class="pro_con">
+                                    #버블바 #상큼한레몬<br>₩ 20,000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pro_img">
+                            <img src="img/product9.png" alt="상품이미지9">
+                            <div class="tag_container">
+                                <div class="tag_box pink">
+                                    <i class="tag-type4">FLORAL</i>
+                                </div> 
+                                <div class="tag_box lightgreen">
+                                    <i class="tag-type2">VEGAN</i>
+                                </div>
+                                <h5 class="in_title">팬지 30ml</h5>
+                                <p class="pro_con">
+                                    #퍼퓸 #낭만적인꽃향기<br>₩ 55,000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec4Button">
+                    <div class="swiper-button-prev">
+                        <img src="img/arrow_left.svg" alt="이전화살표">
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="img/arrow_right.svg" alt="다음화살표">
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </section>
+<!------ Section 5 ------->
+    <section id="section5">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">WHAT OTHERS SAY</h1>
+                <h3 class="section-subtitle">이달의 리뷰를 확인해보세요!</h3>
+            </div>
+            <div class="swiper secondSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide sec5Slider">
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="img/review1-1.png" alt="리뷰1">
+                            </div>
+                            <div class="review_container">
+                                <h2>대디-오 샴푸</h2>
+                                <p class="title">이**님의 훈기</p>
+                                <br>
+                                <p>그 어디에도 경험하지 못한
+                                    특별한 샴푸 향기에<br> 자꾸 머리를 쓸어넘기고 싶어져요!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sec5Slider">
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="img/review1-2.png" alt="리뷰2">
+                            </div>
+                            <div class="review_container">
+                                <h2>대디-오 샴푸</h2>
+                                <p class="title">윤**님의 후기</p>
+                                <br>
+                                <p>색, 향, 지속력 어느 하나
+                                    빼놓을 수 없어요.<br>색처럼 향도 고혹적인 인생샴푸입니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sec5Slider">
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="img/review1-3.png" alt="리뷰3">
+                            </div>
+                            <div class="review_container">
+                                <h2>대디-오 샴푸</h2>
+                                <p class="title">여**님의 후기</p>
+                                <br>
+                                <p>향이 엄청오래(2일이상)지속되고<br>
+                                    머리카락에 볼륨이 살아나요...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sec5Slider">
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="img/review2-1.png" alt="리뷰4">
+                            </div>
+                            <div class="review_container">
+                                <h2>프레쉬 페이스 마스크</h2>
+                                <p class="title">김**님의 후기</p>
+                                <br>
+                                <p>도톰하게 바른 뒤 마사지하여 씻어내면<br>
+                                촉촉하고 부드러운 피부를 만날 수 있죠. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sec5Slider">
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="img/review2-2.png" alt="리뷰5">
+                            </div>
+                            <div class="review_container">
+                                <h2>프레쉬 페이스 마스크</h2>
+                                <p class="title">차**님의 후기</p>
+                                <br>
+                                <p>냉장보관하면서 쓰는데<br> 
+                                시원하고 피부도 보들보들해져서 좋아용!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sec5Slider">
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="img/review2-3.png" alt="리뷰6">
+                            </div>
+                            <div class="review_container">
+                                <h2>프레쉬 페이스 마스크</h2>
+                                <p class="title">남**님의 후기</p>
+                                <br>
+                                <p>촉촉하고 발림성이 좋아서
+                                    얼굴에 얹으면<br>시원 촉촉하니 기분이 너무 좋아져요.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sec5Slider">
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="img/review3-1.png" alt="리뷰7">
+                            </div>
+                            <div class="review_container">
+                                <h2>빅 블루 배쓰밤</h2>
+                                <p class="title">여**님의 후기</p>
+                                <br>
+                                <p>바다에서 온 시원한 해초와 촉촉한 알로에 베라가<br>
+                                서로에게 스민 멋진 비비 씨워드.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sec5Slider">
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="img/review3-2.png" alt="리뷰8">
+                            </div>
+                            <div class="review_container">
+                                <h2>빅 블루 배쓰밤</h2>
+                                <p class="title">백**님의 후기</p>
+                                <br>
+                                <p>물에 넣자마자 엄청 빨리 녹아버려서 아쉽지만<br>
+                                   은은한 레몬 & 라벤더향이 좋아요!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide sec5Slider">
+                        <div class="card">
+                            <div class="cardimg">
+                                <img src="img/review3-3.png" alt="리뷰9">
+                            </div>
+                            <div class="review_container">
+                                <h2>빅 블루 배쓰밤</h2>
+                                <p class="title">오**님의 후기</p>
+                                <br>
+                                <p>촉촉하고 발림성이 좋아서
+                                    얼굴에 얹으면<br>시원 촉촉하니 기분이 너무 좋아져요.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="sec5Button">
+                    <div class="swiper-button-prev">
+                        <img src="img/arrow_left.svg" alt="이전화살표">
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="img/arrow_right.svg" alt="다음화살표">
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+<!------- Footer --------->
+    <footer>
+        <div class="container">
+            <div id="footer_top">
+                <ul id="footer_1">
+                    <li>
+                        <h5>
+                            <a href="#">러쉬소개</a>
+                        </h5>
+                        <a href="#">브랜드 스토리</a>
+                        <a href="#">러쉬 스토리</a>
+                    </li>
+                    <li>
+                        <h5>
+                            <a href="#">제품소개</a>
+                        </h5>
+                        <a href="#">베스트</a>
+                        <a href="#">신제품</a>
+                        <a href="#">기프트</a>
+                    </li>
+                    <li>
+                        <h5>
+                            <a href="#">마이페이지</a>
+                        </h5>
+                        <a href="#">주문 조회</a>
+                        <a href="#">내 정보 수정</a>
+                        <a href="#">1:1 문의</a>
+                    </li>
+                    <li>
+                        <h5>
+                            <a href="#">공지사항</a>
+                        </h5>
+                        <a href="#">배송비 인상 안내</a>
+                        <a href="#">CJ택배 일부지역</a>
+                        <a href="#">[배송 지연 안내]</a>
+                    </li>
+                </ul>
+                <div id="footer_r">
+                    <div class="sns_title">
+                        <p>CONNECT WITH US</p>
+                    </div>
+                    <div id="f_sns">
+                        <div class="sns_box">
+                        <a href="#">
+                            <img src="img/instagram.svg" alt="facebook">
+                        </a>
+                        <a href="#">
+                            <img src="img/youtube.svg" alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img src="img/facebook.svg" alt="youtube">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="f_low">
+                <div class="f_cell">
+                    <ul>
+                        <li>
+                            <a href="#">이용약관</a>
+                        </li>
+                        <li>
+                            <a href="#">개인정보처리방침</a>
+                        </li>
+                        <li>
+                            <a href="#">이용안내</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tbox">
+                    <div class="t_ t_1">
+                        <span class="ml">
+                            <b>주소</b>
+                            : 서울시 서초구 서운로 138&nbsp;
+                        </span>
+
+                        <span class="ml">
+                            <b>대표이사</b>
+                            : 우미령
+                        </span>
+                    </div>
+                    <div class="t_ t_2">
+                        <span>
+                            <b>사이트 운영자</b>
+                            : 주식회사 러쉬코리아
+                        </span>
+                        <span>
+                            <b>사업자 등록번호</b>
+                            : 201-81-77964
+                        </span>
+                        <span>
+                            <b>개인정보 보호책임자</b>
+                            : 신상훈
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="footer_bottom">
+                <small>@ 2022 LUSH KOREA . All Rights Reserved</small>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
